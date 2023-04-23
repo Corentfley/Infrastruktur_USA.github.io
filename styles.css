@@ -17,8 +17,8 @@ a {
     color: black;
   }
 nav{
-    font-size: medium +2;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
 }  
