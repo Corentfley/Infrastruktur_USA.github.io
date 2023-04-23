@@ -1,50 +1,24 @@
-body {
-    font-family: arial, helvetica;
+body{
+    background: rgb(174,230,238);
+    background: radial-gradient(circle, rgba(174,230,238,1) 0%, rgba(148,187,233,1) 100%);
+}
+#opening-title{
+    font-size: 24;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+}
+#from{
+    font-size: medium;
+    font-family: Arial, Helvetica;
+}
+a {
+    text-decoration: none;
+    color: black;
   }
-  
-  h3 {
-    font-size: 5em;
-    text-align: center;
-    color: #fff;
-    font-weight: 700;
-  }
-  
-  #section1 {
-    color: #fff;
-  }
-  
-  .fp-section {
-    text-align: center;
-  }
-  
-  button {
-    padding: 0.93em 1.87em;
-    background: #35495e;
-    border-radius: 5px;
-    border-color: transparent;
-    display: block;
-    color: #fff;
-    margin: 0 auto;
-    cursor: pointer;
-    font-size: 0.85em;
-  }
-  
-  .actions {
-    list-style-type: none;
-  }
-  .actions button {
-    padding: 0.93em 1.87em;
-    background: #35495e;
-    border-radius: 5px;
-    border: 0;
-    color: #fff;
-    margin: 7px;
-    font-size: 15px;
-    cursor: pointer;
-    display: inline-block;
-  }
-  .actions button:hover {
-    background: #fff;
-    color: #35495e;
-  }
-  
+nav{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium +2;
+    display: flex;
+    justify-content: center;
+}  
