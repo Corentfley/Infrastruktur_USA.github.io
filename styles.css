@@ -17,8 +17,8 @@ a {
     color: black;
   }
 nav{
-    font-family: 'Times New Roman', Times, serif;
     font-size: medium +2;
+    font-family: 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
 }  
