@@ -22,3 +22,9 @@ nav{
     display: flex;
     justify-content: center;
 }  
+.WI{
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: lightseagreen;
+    border-radius: 10px;
+}
