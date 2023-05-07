@@ -26,7 +26,10 @@ nav{
     font-family: sans-serif;
     font-size: 15px;
     background-color: lightseagreen;
-    border-radius: 10px;
+    border-radius: 5px;
+    width: 750px;
+    display: block;
+    position: relative;
 }
 
 .slider{
@@ -36,6 +39,7 @@ nav{
     display: flex;
     overflow: scroll;
     scroll-snap-type: x mandatory;
+    margin-right: -10px;
 }
 
 .slider img{
