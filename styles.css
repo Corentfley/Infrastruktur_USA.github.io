@@ -22,22 +22,27 @@ nav{
     display: flex;
     justify-content: center;
 }  
-.WI{
+#WI{
     font-family: sans-serif;
     font-size: 15px;
     border-radius: 5px;
-    border: solid 2px black;
     width: 700px;
     display: block;
     position: relative;
     margin: 10px;
+    margin-left: 110px;
+    background-color: rgba(211, 211, 211, 0.8);
+    border: solid 1px black;
+    text-align: justify;
+    padding: 5px 10px;
 }
 
 .slider{
-    aspect-ratio: 16/14;
+    aspect-ratio: 20/12;
     width: 300px;
-    position: relative;
-    right: 0;
+    position: absolute;
+    right: 150px;
+    top: 20%;
     display: flex;
     overflow: scroll;
     scroll-snap-type: x mandatory;
@@ -54,14 +59,16 @@ nav{
     border: 1px solid black; 
 }
 
-.GDP{
+#GDP{
     font-family: sans-serif;
     font-size: 15px;
     border-radius: 5px;
-    border: solid 2px black;
-    width: 850;
-    display: block;
+    width: 90%;
     position: relative;
-    right: 0;
-    margin: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: rgba(211, 211, 211, 0.8);
+    border: solid 1px black;
+    text-align: justify;
+    padding: 5px 10px;
 }
