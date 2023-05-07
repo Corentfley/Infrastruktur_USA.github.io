@@ -48,7 +48,8 @@ nav{
     position: sticky;
     object-fit: cover;
     border-radius: 5px;
-    scroll-snap-align: center;    
+    scroll-snap-align: center;   
+    border: 1px solid black; 
 }
 
 .GDP{
