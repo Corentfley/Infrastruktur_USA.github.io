@@ -58,6 +58,6 @@ nav{
     border: solid 2px black;
     width: 850;
     display: block;
-    position: absolute;
+    position: relative;
     right: 0;
 }
