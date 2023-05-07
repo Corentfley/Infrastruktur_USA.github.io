@@ -30,6 +30,7 @@ nav{
     width: 700px;
     display: block;
     position: relative;
+    margin: 10px;
 }
 
 .slider{
@@ -40,7 +41,7 @@ nav{
     display: flex;
     overflow: scroll;
     scroll-snap-type: x mandatory;
-    float: right;
+    margin: 10px;
 }
 
 .slider img{
@@ -62,4 +63,5 @@ nav{
     display: block;
     position: relative;
     right: 0;
+    margin: 10px;
 }
