@@ -25,8 +25,8 @@ nav{
 .WI{
     font-family: sans-serif;
     font-size: 15px;
-    background-color: lightseagreen;
     border-radius: 5px;
+    border-color: black;
     width: 750px;
     display: block;
     position: relative;
@@ -36,10 +36,10 @@ nav{
     aspect-ratio: 16/14;
     width: 300px;
     position: relative;
+    right: 0;
     display: flex;
     overflow: scroll;
     scroll-snap-type: x mandatory;
-    margin-right: -10px;
 }
 
 .slider img{
