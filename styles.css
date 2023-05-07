@@ -28,10 +28,14 @@ nav{
     background-color: lightseagreen;
     border-radius: 10px;
 }
+
 .slider {
     aspect-ratio: 16/16;
     width: 300px;
-    overflow: hidden;
+    position: relative;
+    display: flex;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
   }
   
   .slider img {
@@ -55,4 +59,4 @@ nav{
   
   .slider .next {
     right: 0;
-  }  
+  }
