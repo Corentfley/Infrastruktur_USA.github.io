@@ -42,7 +42,7 @@ nav{
     aspect-ratio: 20/12;
     width: 300px;
     position: absolute;
-    right: 8%;
+    right: 4%;
     top: 20%;
     display: flex;
     overflow: scroll;
@@ -82,7 +82,7 @@ nav{
     display: block;
     position: relative;
     margin-top: 40px;
-    margin-left: 39%;
+    margin-left: 30%;
     margin-bottom: 40px;
     background-color: rgba(211, 211, 211, 0.405);
     border: solid 1px black;
