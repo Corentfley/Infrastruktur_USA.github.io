@@ -121,7 +121,7 @@ nav{
     width: 300px;
     position: absolute;
     left: 6%;
-    top: 105%;
+    top: 110%;
     display: flex;
     overflow: scroll;
     scroll-snap-type: x mandatory;
