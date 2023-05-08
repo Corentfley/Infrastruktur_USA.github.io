@@ -42,7 +42,7 @@ nav{
     aspect-ratio: 20/12;
     width: 300px;
     position: absolute;
-    right: 8%;
+    right: 2%;
     top: 20%;
     display: flex;
     overflow: scroll;
@@ -120,8 +120,8 @@ nav{
     aspect-ratio: 20/12;
     width: 300px;
     position: absolute;
-    left: 8%;
-    top: 100%;
+    left: 6%;
+    top: 105%;
     display: flex;
     overflow: scroll;
     scroll-snap-type: x mandatory;
