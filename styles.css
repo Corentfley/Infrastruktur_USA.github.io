@@ -3,7 +3,7 @@ body{
     background: radial-gradient(circle, rgba(174,230,238,1) 0%, rgba(148,187,233,1) 100%);
 }
 #opening-title{
-    font-size: 24;
+    font-size: 30;
     font-family: Arial;
     display: flex;
     justify-content: center;
@@ -12,6 +12,7 @@ body{
     font-size: medium;
     font-family: Arial, Helvetica;
 }
+
 a {
     text-decoration: none;
     color: black;
@@ -31,7 +32,7 @@ nav{
     position: relative;
     margin: 10px;
     margin-left: 110px;
-    background-color: rgba(211, 211, 211, 0.8);
+    background-color: rgba(211, 211, 211, 0.405);
     border: solid 1px black;
     text-align: justify;
     padding: 5px 10px;
@@ -67,8 +68,73 @@ nav{
     position: relative;
     margin: auto;
     margin-bottom: 10px;
-    background-color: rgba(211, 211, 211, 0.8);
+    background-color: rgba(211, 211, 211, 0.405);
     border: solid 1px black;
     text-align: justify;
     padding: 5px 10px;
+}
+
+#Gebieten{
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 700px;
+    display: block;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 490px;
+    margin-bottom: 40px;
+    background-color: rgba(211, 211, 211, 0.405);
+    border: solid 1px black;
+    text-align: justify;
+    padding: 5px 10px;
+}
+
+#Wichtig{
+    font-family: sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 90%;
+    position: relative;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: rgba(211, 211, 211, 0.405);
+    border: solid 1px black;
+    text-align: justify;
+    padding: 5px 10px;
+}
+#groß{
+    font-family: sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 90%;
+    position: relative;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: rgba(211, 211, 211, 0.405);
+    border: solid 1px black;
+    text-align: justify;
+    padding: 5px 10px;
+}
+
+.slider2{
+    aspect-ratio: 20/12;
+    width: 300px;
+    position: absolute;
+    left: 100px;
+    top: 190px;
+    display: flex;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+    margin: 10px;
+}
+
+.slider2 img{
+    width: 100%;
+    left: 0;
+    position: sticky;
+    object-fit: cover;
+    border-radius: 5px;
+    scroll-snap-align: center;   
+    border: 1px solid black; 
 }
