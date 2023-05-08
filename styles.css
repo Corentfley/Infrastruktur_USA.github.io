@@ -78,7 +78,7 @@ nav{
     font-family: sans-serif;
     font-size: 20px;
     border-radius: 5px;
-    width: 700px;
+    width: 600px;
     display: block;
     position: relative;
     margin-top: 40px;
@@ -120,7 +120,7 @@ nav{
     aspect-ratio: 20/12;
     width: 300px;
     position: absolute;
-    left: 8%;
+    left: 6%;
     top: 100%;
     display: flex;
     overflow: scroll;
