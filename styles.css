@@ -31,7 +31,7 @@ nav{
     display: block;
     position: relative;
     margin: 10px;
-    left: 8%;
+    left: 5%;
     background-color: rgba(211, 211, 211, 0.405);
     border: solid 1px black;
     text-align: justify;
@@ -42,7 +42,7 @@ nav{
     aspect-ratio: 20/12;
     width: 300px;
     position: absolute;
-    right: 2%;
+    right: 0;
     top: 20%;
     display: flex;
     overflow: scroll;
