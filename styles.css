@@ -57,7 +57,7 @@ nav{
     object-fit: cover;
     border-radius: 5px;
     scroll-snap-align: center;   
-    border: 1px solid black; 
+    border: 2px solid black; 
 }
 
 #GDP{
@@ -89,7 +89,6 @@ nav{
     text-align: justify;
     padding: 5px 10px;
 }
-
 #Wichtig{
     font-family: sans-serif;
     font-size: 15px;
@@ -128,7 +127,6 @@ nav{
     scroll-snap-type: x mandatory;
     margin: 10px;
 }
-
 .slider2 img{
     width: 100%;
     left: 0;
@@ -136,5 +134,5 @@ nav{
     object-fit: cover;
     border-radius: 5px;
     scroll-snap-align: center;   
-    border: 1px solid black; 
+    border: 2px solid black; 
 }
